@@ -2,10 +2,10 @@ import { LevelData } from '@/types/game';
 
 // 0 = walkable, 1 = wall, 2 = exit
 export const levels: LevelData[] = [
-  // Level 1 - Super Simple
+  // Level 1
   {
     id: 1,
-    name: "Primeiro Passeio",
+    name: "Início",
     grid: [
       [1, 1, 1, 1, 1, 1, 1],
       [1, 0, 0, 0, 0, 0, 1],
@@ -18,7 +18,7 @@ export const levels: LevelData[] = [
   // Level 2
   {
     id: 2,
-    name: "Caminho das Flores",
+    name: "Corredor",
     grid: [
       [1, 1, 1, 1, 1, 1, 1, 1],
       [1, 0, 0, 1, 0, 0, 0, 1],
@@ -32,7 +32,7 @@ export const levels: LevelData[] = [
   // Level 3
   {
     id: 3,
-    name: "Jardim Secreto",
+    name: "Desvio",
     grid: [
       [1, 1, 1, 1, 1, 1, 1, 1],
       [1, 0, 0, 0, 1, 0, 0, 1],
@@ -47,7 +47,7 @@ export const levels: LevelData[] = [
   // Level 4
   {
     id: 4,
-    name: "Labirinto Rosa",
+    name: "Labirinto",
     grid: [
       [1, 1, 1, 1, 1, 1, 1, 1, 1],
       [1, 0, 0, 0, 1, 0, 0, 0, 1],
@@ -63,7 +63,7 @@ export const levels: LevelData[] = [
   // Level 5
   {
     id: 5,
-    name: "Aventura no Parque",
+    name: "Caminhos",
     grid: [
       [1, 1, 1, 1, 1, 1, 1, 1, 1],
       [1, 0, 1, 0, 0, 0, 1, 0, 1],
@@ -80,7 +80,7 @@ export const levels: LevelData[] = [
   // Level 6
   {
     id: 6,
-    name: "Floresta Encantada",
+    name: "Complexo",
     grid: [
       [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
       [1, 0, 0, 0, 1, 0, 0, 0, 0, 1],
@@ -97,7 +97,7 @@ export const levels: LevelData[] = [
   // Level 7
   {
     id: 7,
-    name: "Castelo de Nuvens",
+    name: "Espiral",
     grid: [
       [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
       [1, 0, 0, 0, 0, 0, 1, 0, 0, 1],
@@ -115,7 +115,7 @@ export const levels: LevelData[] = [
   // Level 8
   {
     id: 8,
-    name: "Vale dos Sonhos",
+    name: "Serpente",
     grid: [
       [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
       [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1],
@@ -133,7 +133,7 @@ export const levels: LevelData[] = [
   // Level 9
   {
     id: 9,
-    name: "Montanha Mágica",
+    name: "Desafio",
     grid: [
       [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
       [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1],
@@ -149,10 +149,10 @@ export const levels: LevelData[] = [
     playerStart: { x: 1, y: 1 },
     exit: { x: 9, y: 8 },
   },
-  // Level 10 - Final Level
+  // Level 10 - Final
   {
     id: 10,
-    name: "Coração do Amor",
+    name: "Final",
     grid: [
       [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
       [1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1],
