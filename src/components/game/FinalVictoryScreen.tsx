@@ -45,7 +45,7 @@ export const FinalVictoryScreen = ({ onMenu }: FinalVictoryScreenProps) => {
         {/* Main Message */}
         <div className="text-center space-y-4">
           <h1 className="text-5xl md:text-6xl font-bold text-game-love drop-shadow-lg">
-            Te amo vida
+            Você é especial pra mim.
           </h1>
           <div className="flex justify-center gap-2">
             <Heart className="w-8 h-8 text-game-love fill-game-love animate-pulse-heart" />
