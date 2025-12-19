@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        fredoka: ['Fredoka', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +49,14 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        game: {
+          sky: "hsl(var(--game-sky))",
+          grass: "hsl(var(--game-grass))",
+          wall: "hsl(var(--game-wall))",
+          portal: "hsl(var(--game-portal))",
+          love: "hsl(var(--game-love))",
+          gold: "hsl(var(--game-gold))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
